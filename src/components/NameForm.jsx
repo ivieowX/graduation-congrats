@@ -27,7 +27,7 @@ export default function NameForm({ onSubmit, loading }) {
       <div className="relative">
         <input
           className="w-full rounded-xl border border-slate-200/20 bg-slate-900/40 px-4 py-3 text-slate-100 placeholder:text-slate-400 outline-none focus:border-accent focus:ring-2 focus:ring-accent/50 transition"
-          placeholder="เช่น จักรพงศ์"
+          placeholder="เช่น MIT"
           value={name}
           onChange={(e) => setName(e.target.value)}
         />
